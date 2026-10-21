@@ -1,0 +1,531 @@
+{
+  "preparation_status": "prepared_with_source_split_overlap",
+  "dataset": "CLINC150 full",
+  "uci_dataset_id": 570,
+  "uci_download_url": "https://archive.ics.uci.edu/static/public/570/clinc150.zip",
+  "version_or_release": "UCI full release; clinc150_uci/data_full.json",
+  "domain_mapping_source": "https://raw.githubusercontent.com/clinc/oos-eval/master/data/domains.json",
+  "downloaded_date": "2026-10-19",
+  "downloaded_archive": "data/raw/clinc150-uci.zip",
+  "downloaded_archive_sha256": "0d8ecc3e1edd7b25cabde0177544ce536ddf773844bc80ef1a75f36e7f030ea2",
+  "source_split_file": "data/source/clinc150_uci/data_full.json",
+  "source_split_keys": {
+    "train": "train",
+    "validation": "val",
+    "test": "test"
+  },
+  "processed_split_files": {
+    "train": "data/prepared/train.jsonl",
+    "validation": "data/prepared/validation.jsonl",
+    "test": "data/prepared/test.jsonl"
+  },
+  "oos_handling": "OOS rows are excluded from all processed splits and from replay.",
+  "source_overlap_handling": "Official partitions are preserved unchanged. Cross-split duplicate text is reported below; no rows were silently removed, moved, or relabeled.",
+  "target_label_field": "intent (intent name string)",
+  "intent_to_label_id": {
+    "accept_reservations": 0,
+    "account_blocked": 1,
+    "alarm": 2,
+    "application_status": 3,
+    "apr": 4,
+    "are_you_a_bot": 5,
+    "balance": 6,
+    "bill_balance": 7,
+    "bill_due": 8,
+    "book_flight": 9,
+    "book_hotel": 10,
+    "calculator": 11,
+    "calendar": 12,
+    "calendar_update": 13,
+    "calories": 14,
+    "cancel": 15,
+    "cancel_reservation": 16,
+    "car_rental": 17,
+    "card_declined": 18,
+    "carry_on": 19,
+    "change_accent": 20,
+    "change_ai_name": 21,
+    "change_language": 22,
+    "change_speed": 23,
+    "change_user_name": 24,
+    "change_volume": 25,
+    "confirm_reservation": 26,
+    "cook_time": 27,
+    "credit_limit": 28,
+    "credit_limit_change": 29,
+    "credit_score": 30,
+    "current_location": 31,
+    "damaged_card": 32,
+    "date": 33,
+    "definition": 34,
+    "direct_deposit": 35,
+    "directions": 36,
+    "distance": 37,
+    "do_you_have_pets": 38,
+    "exchange_rate": 39,
+    "expiration_date": 40,
+    "find_phone": 41,
+    "flight_status": 42,
+    "flip_coin": 43,
+    "food_last": 44,
+    "freeze_account": 45,
+    "fun_fact": 46,
+    "gas": 47,
+    "gas_type": 48,
+    "goodbye": 49,
+    "greeting": 50,
+    "how_busy": 51,
+    "how_old_are_you": 52,
+    "improve_credit_score": 53,
+    "income": 54,
+    "ingredient_substitution": 55,
+    "ingredients_list": 56,
+    "insurance": 57,
+    "insurance_change": 58,
+    "interest_rate": 59,
+    "international_fees": 60,
+    "international_visa": 61,
+    "jump_start": 62,
+    "last_maintenance": 63,
+    "lost_luggage": 64,
+    "make_call": 65,
+    "maybe": 66,
+    "meal_suggestion": 67,
+    "meaning_of_life": 68,
+    "measurement_conversion": 69,
+    "meeting_schedule": 70,
+    "min_payment": 71,
+    "mpg": 72,
+    "new_card": 73,
+    "next_holiday": 74,
+    "next_song": 75,
+    "no": 76,
+    "nutrition_info": 77,
+    "oil_change_how": 78,
+    "oil_change_when": 79,
+    "order": 80,
+    "order_checks": 81,
+    "order_status": 82,
+    "pay_bill": 83,
+    "payday": 84,
+    "pin_change": 85,
+    "play_music": 86,
+    "plug_type": 87,
+    "pto_balance": 88,
+    "pto_request": 89,
+    "pto_request_status": 90,
+    "pto_used": 91,
+    "recipe": 92,
+    "redeem_rewards": 93,
+    "reminder": 94,
+    "reminder_update": 95,
+    "repeat": 96,
+    "replacement_card_duration": 97,
+    "report_fraud": 98,
+    "report_lost_card": 99,
+    "reset_settings": 100,
+    "restaurant_reservation": 101,
+    "restaurant_reviews": 102,
+    "restaurant_suggestion": 103,
+    "rewards_balance": 104,
+    "roll_dice": 105,
+    "rollover_401k": 106,
+    "routing": 107,
+    "schedule_maintenance": 108,
+    "schedule_meeting": 109,
+    "share_location": 110,
+    "shopping_list": 111,
+    "shopping_list_update": 112,
+    "smart_home": 113,
+    "spelling": 114,
+    "spending_history": 115,
+    "sync_device": 116,
+    "taxes": 117,
+    "tell_joke": 118,
+    "text": 119,
+    "thank_you": 120,
+    "time": 121,
+    "timer": 122,
+    "timezone": 123,
+    "tire_change": 124,
+    "tire_pressure": 125,
+    "todo_list": 126,
+    "todo_list_update": 127,
+    "traffic": 128,
+    "transactions": 129,
+    "transfer": 130,
+    "translate": 131,
+    "travel_alert": 132,
+    "travel_notification": 133,
+    "travel_suggestion": 134,
+    "uber": 135,
+    "update_playlist": 136,
+    "user_name": 137,
+    "vaccines": 138,
+    "w2": 139,
+    "weather": 140,
+    "what_are_your_hobbies": 141,
+    "what_can_i_ask_you": 142,
+    "what_is_your_name": 143,
+    "what_song": 144,
+    "where_are_you_from": 145,
+    "whisper_mode": 146,
+    "who_do_you_work_for": 147,
+    "who_made_you": 148,
+    "yes": 149
+  },
+  "intent_to_domain": {
+    "accept_reservations": "kitchen_and_dining",
+    "account_blocked": "banking",
+    "alarm": "utility",
+    "application_status": "credit_cards",
+    "apr": "credit_cards",
+    "are_you_a_bot": "small_talk",
+    "balance": "banking",
+    "bill_balance": "banking",
+    "bill_due": "banking",
+    "book_flight": "travel",
+    "book_hotel": "travel",
+    "calculator": "utility",
+    "calendar": "home",
+    "calendar_update": "home",
+    "calories": "kitchen_and_dining",
+    "cancel": "meta",
+    "cancel_reservation": "kitchen_and_dining",
+    "car_rental": "travel",
+    "card_declined": "credit_cards",
+    "carry_on": "travel",
+    "change_accent": "meta",
+    "change_ai_name": "meta",
+    "change_language": "meta",
+    "change_speed": "meta",
+    "change_user_name": "meta",
+    "change_volume": "meta",
+    "confirm_reservation": "kitchen_and_dining",
+    "cook_time": "kitchen_and_dining",
+    "credit_limit": "credit_cards",
+    "credit_limit_change": "credit_cards",
+    "credit_score": "credit_cards",
+    "current_location": "auto_and_commute",
+    "damaged_card": "credit_cards",
+    "date": "utility",
+    "definition": "utility",
+    "direct_deposit": "work",
+    "directions": "auto_and_commute",
+    "distance": "auto_and_commute",
+    "do_you_have_pets": "small_talk",
+    "exchange_rate": "travel",
+    "expiration_date": "credit_cards",
+    "find_phone": "utility",
+    "flight_status": "travel",
+    "flip_coin": "utility",
+    "food_last": "kitchen_and_dining",
+    "freeze_account": "banking",
+    "fun_fact": "small_talk",
+    "gas": "auto_and_commute",
+    "gas_type": "auto_and_commute",
+    "goodbye": "small_talk",
+    "greeting": "small_talk",
+    "how_busy": "kitchen_and_dining",
+    "how_old_are_you": "small_talk",
+    "improve_credit_score": "credit_cards",
+    "income": "work",
+    "ingredient_substitution": "kitchen_and_dining",
+    "ingredients_list": "kitchen_and_dining",
+    "insurance": "work",
+    "insurance_change": "work",
+    "interest_rate": "banking",
+    "international_fees": "credit_cards",
+    "international_visa": "travel",
+    "jump_start": "auto_and_commute",
+    "last_maintenance": "auto_and_commute",
+    "lost_luggage": "travel",
+    "make_call": "utility",
+    "maybe": "meta",
+    "meal_suggestion": "kitchen_and_dining",
+    "meaning_of_life": "small_talk",
+    "measurement_conversion": "utility",
+    "meeting_schedule": "work",
+    "min_payment": "banking",
+    "mpg": "auto_and_commute",
+    "new_card": "credit_cards",
+    "next_holiday": "work",
+    "next_song": "home",
+    "no": "meta",
+    "nutrition_info": "kitchen_and_dining",
+    "oil_change_how": "auto_and_commute",
+    "oil_change_when": "auto_and_commute",
+    "order": "home",
+    "order_checks": "banking",
+    "order_status": "home",
+    "pay_bill": "banking",
+    "payday": "work",
+    "pin_change": "banking",
+    "play_music": "home",
+    "plug_type": "travel",
+    "pto_balance": "work",
+    "pto_request": "work",
+    "pto_request_status": "work",
+    "pto_used": "work",
+    "recipe": "kitchen_and_dining",
+    "redeem_rewards": "credit_cards",
+    "reminder": "home",
+    "reminder_update": "home",
+    "repeat": "meta",
+    "replacement_card_duration": "credit_cards",
+    "report_fraud": "banking",
+    "report_lost_card": "credit_cards",
+    "reset_settings": "meta",
+    "restaurant_reservation": "kitchen_and_dining",
+    "restaurant_reviews": "kitchen_and_dining",
+    "restaurant_suggestion": "kitchen_and_dining",
+    "rewards_balance": "credit_cards",
+    "roll_dice": "utility",
+    "rollover_401k": "work",
+    "routing": "banking",
+    "schedule_maintenance": "auto_and_commute",
+    "schedule_meeting": "work",
+    "share_location": "utility",
+    "shopping_list": "home",
+    "shopping_list_update": "home",
+    "smart_home": "home",
+    "spelling": "utility",
+    "spending_history": "banking",
+    "sync_device": "meta",
+    "taxes": "work",
+    "tell_joke": "small_talk",
+    "text": "utility",
+    "thank_you": "small_talk",
+    "time": "utility",
+    "timer": "utility",
+    "timezone": "travel",
+    "tire_change": "auto_and_commute",
+    "tire_pressure": "auto_and_commute",
+    "todo_list": "home",
+    "todo_list_update": "home",
+    "traffic": "auto_and_commute",
+    "transactions": "banking",
+    "transfer": "banking",
+    "translate": "travel",
+    "travel_alert": "travel",
+    "travel_notification": "travel",
+    "travel_suggestion": "travel",
+    "uber": "auto_and_commute",
+    "update_playlist": "home",
+    "user_name": "meta",
+    "vaccines": "travel",
+    "w2": "work",
+    "weather": "utility",
+    "what_are_your_hobbies": "small_talk",
+    "what_can_i_ask_you": "small_talk",
+    "what_is_your_name": "small_talk",
+    "what_song": "home",
+    "where_are_you_from": "small_talk",
+    "whisper_mode": "meta",
+    "who_do_you_work_for": "small_talk",
+    "who_made_you": "small_talk",
+    "yes": "meta"
+  },
+  "domain_order_for_first_run": [
+    "auto_and_commute",
+    "banking",
+    "credit_cards",
+    "home",
+    "kitchen_and_dining",
+    "meta",
+    "small_talk",
+    "travel",
+    "utility",
+    "work"
+  ],
+  "random_seed": 42,
+  "sampling_or_shuffling_performed": false,
+  "split_summary": {
+    "train": {
+      "file": "data/prepared/train.jsonl",
+      "examples": 15000,
+      "examples_per_intent": 100,
+      "examples_per_domain": {
+        "auto_and_commute": 1500,
+        "banking": 1500,
+        "credit_cards": 1500,
+        "home": 1500,
+        "kitchen_and_dining": 1500,
+        "meta": 1500,
+        "small_talk": 1500,
+        "travel": 1500,
+        "utility": 1500,
+        "work": 1500
+      }
+    },
+    "validation": {
+      "file": "data/prepared/validation.jsonl",
+      "examples": 3000,
+      "examples_per_intent": 20,
+      "examples_per_domain": {
+        "auto_and_commute": 300,
+        "banking": 300,
+        "credit_cards": 300,
+        "home": 300,
+        "kitchen_and_dining": 300,
+        "meta": 300,
+        "small_talk": 300,
+        "travel": 300,
+        "utility": 300,
+        "work": 300
+      }
+    },
+    "test": {
+      "file": "data/prepared/test.jsonl",
+      "examples": 4500,
+      "examples_per_intent": 30,
+      "examples_per_domain": {
+        "auto_and_commute": 450,
+        "banking": 450,
+        "credit_cards": 450,
+        "home": 450,
+        "kitchen_and_dining": 450,
+        "meta": 450,
+        "small_talk": 450,
+        "travel": 450,
+        "utility": 450,
+        "work": 450
+      }
+    }
+  },
+  "validation": {
+    "intent_count": 150,
+    "each_intent_has_exactly_one_domain": true,
+    "intents_per_domain": {
+      "auto_and_commute": 15,
+      "banking": 15,
+      "credit_cards": 15,
+      "home": 15,
+      "kitchen_and_dining": 15,
+      "meta": 15,
+      "small_talk": 15,
+      "travel": 15,
+      "utility": 15,
+      "work": 15
+    },
+    "cross_split_overlaps": [
+      {
+        "left_split": "train",
+        "right_split": "validation",
+        "identical_text_and_intent_count": 1,
+        "identical_text_count": 3,
+        "texts_and_labels": {
+          "hey what's up": {
+            "train": [
+              "greeting"
+            ],
+            "validation": [
+              "greeting"
+            ]
+          },
+          "turn up your volume": {
+            "train": [
+              "whisper_mode"
+            ],
+            "validation": [
+              "change_volume"
+            ]
+          },
+          "what is on my to do list": {
+            "train": [
+              "todo_list"
+            ],
+            "validation": [
+              "reminder"
+            ]
+          }
+        }
+      },
+      {
+        "left_split": "train",
+        "right_split": "test",
+        "identical_text_and_intent_count": 0,
+        "identical_text_count": 2,
+        "texts_and_labels": {
+          "what's your designation": {
+            "train": [
+              "what_is_your_name"
+            ],
+            "test": [
+              "user_name"
+            ]
+          },
+          "where did you grow up": {
+            "train": [
+              "how_old_are_you"
+            ],
+            "test": [
+              "where_are_you_from"
+            ]
+          }
+        }
+      }
+    ],
+    "no_exact_example_overlap_between_splits": false,
+    "no_cross_split_text_overlap": false,
+    "source_overlap_report": [
+      {
+        "left_split": "train",
+        "right_split": "validation",
+        "identical_text_and_intent_count": 1,
+        "identical_text_count": 3,
+        "texts_and_labels": {
+          "hey what's up": {
+            "train": [
+              "greeting"
+            ],
+            "validation": [
+              "greeting"
+            ]
+          },
+          "turn up your volume": {
+            "train": [
+              "whisper_mode"
+            ],
+            "validation": [
+              "change_volume"
+            ]
+          },
+          "what is on my to do list": {
+            "train": [
+              "todo_list"
+            ],
+            "validation": [
+              "reminder"
+            ]
+          }
+        }
+      },
+      {
+        "left_split": "train",
+        "right_split": "test",
+        "identical_text_and_intent_count": 0,
+        "identical_text_count": 2,
+        "texts_and_labels": {
+          "what's your designation": {
+            "train": [
+              "what_is_your_name"
+            ],
+            "test": [
+              "user_name"
+            ]
+          },
+          "where did you grow up": {
+            "train": [
+              "how_old_are_you"
+            ],
+            "test": [
+              "where_are_you_from"
+            ]
+          }
+        }
+      }
+    ],
+    "replay_buffer_created": false
+  }
+}

@@ -1,0 +1,11 @@
+method,split,task_index,examples,correct,accuracy,invalid_outputs,predictions
+sequential,test,1,450,345,0.7666666666666667,80,run-logs\full-sequence\sequential\test-after-task-01.jsonl
+sequential,test,2,900,507,0.5633333333333334,340,run-logs\full-sequence\sequential\test-after-task-02.jsonl
+sequential,test,3,1350,619,0.4585185185185185,621,run-logs\full-sequence\sequential\test-after-task-03.jsonl
+sequential,test,4,1800,626,0.3477777777777778,720,run-logs\full-sequence\sequential\test-after-task-04.jsonl
+sequential,test,5,2250,584,0.25955555555555554,1292,run-logs\full-sequence\sequential\test-after-task-05.jsonl
+sequential,test,6,2700,689,0.2551851851851852,1686,run-logs\full-sequence\sequential\test-after-task-06.jsonl
+sequential,test,7,3150,568,0.18031746031746032,1984,run-logs\full-sequence\sequential\test-after-task-07.jsonl
+sequential,test,8,3600,887,0.24638888888888888,1825,run-logs\full-sequence\sequential\test-after-task-08.jsonl
+sequential,test,9,4050,812,0.20049382716049383,2240,run-logs\full-sequence\sequential\test-after-task-09.jsonl
+sequential,test,10,4500,1159,0.25755555555555554,2451,run-logs\full-sequence\sequential\test-after-task-10.jsonl

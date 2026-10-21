@@ -1,0 +1,22 @@
+{
+  "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "task_order": [
+    "auto_and_commute",
+    "banking",
+    "credit_cards",
+    "home",
+    "kitchen_and_dining",
+    "meta",
+    "small_talk",
+    "travel",
+    "utility",
+    "work"
+  ],
+  "seed": 42,
+  "max_sequence_length": 128,
+  "replay_capacity": 300,
+  "replay_microbatch_ratio": "6 current : 2 replay; effective batch via 8 accumulation steps",
+  "olora_lambda": 0.5,
+  "created_at_utc": "2026-10-21T06:08:24.655387+00:00"
+}

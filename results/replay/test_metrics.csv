@@ -1,0 +1,11 @@
+method,split,task_index,examples,correct,accuracy,invalid_outputs,predictions
+replay,test,1,450,345,0.7666666666666667,80,run-logs\full-sequence\replay\test-after-task-01.jsonl
+replay,test,2,900,722,0.8022222222222222,130,run-logs\full-sequence\replay\test-after-task-02.jsonl
+replay,test,3,1350,968,0.717037037037037,282,run-logs\full-sequence\replay\test-after-task-03.jsonl
+replay,test,4,1800,1223,0.6794444444444444,422,run-logs\full-sequence\replay\test-after-task-04.jsonl
+replay,test,5,2250,1484,0.6595555555555556,520,run-logs\full-sequence\replay\test-after-task-05.jsonl
+replay,test,6,2700,1560,0.5777777777777777,739,run-logs\full-sequence\replay\test-after-task-06.jsonl
+replay,test,7,3150,1875,0.5952380952380952,860,run-logs\full-sequence\replay\test-after-task-07.jsonl
+replay,test,8,3600,2029,0.5636111111111111,1102,run-logs\full-sequence\replay\test-after-task-08.jsonl
+replay,test,9,4050,2393,0.5908641975308642,1068,run-logs\full-sequence\replay\test-after-task-09.jsonl
+replay,test,10,4500,2568,0.5706666666666667,1360,run-logs\full-sequence\replay\test-after-task-10.jsonl

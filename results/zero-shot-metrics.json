@@ -1,0 +1,146 @@
+{
+  "validation": {
+    "method": "zero_shot",
+    "split": "validation",
+    "task_index": 10,
+    "examples": 3000,
+    "correct": 0,
+    "accuracy": 0.0,
+    "invalid_outputs": 3000,
+    "per_domain": {
+      "auto_and_commute": {
+        "correct": 0,
+        "total": 300,
+        "invalid": 300,
+        "accuracy": 0.0
+      },
+      "banking": {
+        "correct": 0,
+        "total": 300,
+        "invalid": 300,
+        "accuracy": 0.0
+      },
+      "credit_cards": {
+        "correct": 0,
+        "total": 300,
+        "invalid": 300,
+        "accuracy": 0.0
+      },
+      "home": {
+        "correct": 0,
+        "total": 300,
+        "invalid": 300,
+        "accuracy": 0.0
+      },
+      "kitchen_and_dining": {
+        "correct": 0,
+        "total": 300,
+        "invalid": 300,
+        "accuracy": 0.0
+      },
+      "meta": {
+        "correct": 0,
+        "total": 300,
+        "invalid": 300,
+        "accuracy": 0.0
+      },
+      "small_talk": {
+        "correct": 0,
+        "total": 300,
+        "invalid": 300,
+        "accuracy": 0.0
+      },
+      "travel": {
+        "correct": 0,
+        "total": 300,
+        "invalid": 300,
+        "accuracy": 0.0
+      },
+      "utility": {
+        "correct": 0,
+        "total": 300,
+        "invalid": 300,
+        "accuracy": 0.0
+      },
+      "work": {
+        "correct": 0,
+        "total": 300,
+        "invalid": 300,
+        "accuracy": 0.0
+      }
+    },
+    "predictions": "run-logs\\full-sequence\\zero_shot\\validation-after-task-10.jsonl"
+  },
+  "test": {
+    "method": "zero_shot",
+    "split": "test",
+    "task_index": 10,
+    "examples": 4500,
+    "correct": 0,
+    "accuracy": 0.0,
+    "invalid_outputs": 4500,
+    "per_domain": {
+      "auto_and_commute": {
+        "correct": 0,
+        "total": 450,
+        "invalid": 450,
+        "accuracy": 0.0
+      },
+      "banking": {
+        "correct": 0,
+        "total": 450,
+        "invalid": 450,
+        "accuracy": 0.0
+      },
+      "credit_cards": {
+        "correct": 0,
+        "total": 450,
+        "invalid": 450,
+        "accuracy": 0.0
+      },
+      "home": {
+        "correct": 0,
+        "total": 450,
+        "invalid": 450,
+        "accuracy": 0.0
+      },
+      "kitchen_and_dining": {
+        "correct": 0,
+        "total": 450,
+        "invalid": 450,
+        "accuracy": 0.0
+      },
+      "meta": {
+        "correct": 0,
+        "total": 450,
+        "invalid": 450,
+        "accuracy": 0.0
+      },
+      "small_talk": {
+        "correct": 0,
+        "total": 450,
+        "invalid": 450,
+        "accuracy": 0.0
+      },
+      "travel": {
+        "correct": 0,
+        "total": 450,
+        "invalid": 450,
+        "accuracy": 0.0
+      },
+      "utility": {
+        "correct": 0,
+        "total": 450,
+        "invalid": 450,
+        "accuracy": 0.0
+      },
+      "work": {
+        "correct": 0,
+        "total": 450,
+        "invalid": 450,
+        "accuracy": 0.0
+      }
+    },
+    "predictions": "run-logs\\full-sequence\\zero_shot\\test-after-task-10.jsonl"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "final_accuracy": 0.2891111111111111,
+  "final_correct": 1301,
+  "final_examples": 4500,
+  "final_invalid_outputs": 2679,
+  "forgetting_by_domain": {
+    "auto_and_commute": 0.45111111111111113,
+    "banking": 0.5222222222222221,
+    "credit_cards": 0.5844444444444444,
+    "home": 0.6155555555555555,
+    "kitchen_and_dining": 0.6555555555555556,
+    "meta": 0.7644444444444445,
+    "small_talk": 0.7955555555555556,
+    "travel": 0.6066666666666667,
+    "utility": 0.5111111111111111,
+    "work": 0.0
+  },
+  "mean_forgetting": 0.5506666666666666,
+  "backward_transfer_by_domain": {
+    "auto_and_commute": -0.45111111111111113,
+    "banking": -0.5222222222222221,
+    "credit_cards": -0.5844444444444444,
+    "home": -0.6155555555555555,
+    "kitchen_and_dining": -0.6555555555555556,
+    "meta": -0.7644444444444445,
+    "small_talk": -0.7955555555555556,
+    "travel": -0.6066666666666667,
+    "utility": -0.5111111111111111,
+    "work": 0.0
+  },
+  "backward_transfer": -0.5506666666666666,
+  "peak_vram_gib_by_task": {
+    "auto_and_commute": {
+      "allocated": 1.0802416801452637,
+      "reserved": 1.712890625
+    },
+    "banking": {
+      "allocated": 1.1834750175476074,
+      "reserved": 1.583984375
+    },
+    "credit_cards": {
+      "allocated": 1.3294925689697266,
+      "reserved": 1.662109375
+    },
+    "home": {
+      "allocated": 1.477034568786621,
+      "reserved": 2.037109375
+    },
+    "kitchen_and_dining": {
+      "allocated": 1.626173496246338,
+      "reserved": 2.212890625
+    },
+    "meta": {
+      "allocated": 1.7580242156982422,
+      "reserved": 2.16796875
+    },
+    "small_talk": {
+      "allocated": 1.9090890884399414,
+      "reserved": 2.451171875
+    },
+    "travel": {
+      "allocated": 2.0733723640441895,
+      "reserved": 3.0390625
+    },
+    "utility": {
+      "allocated": 2.202462673187256,
+      "reserved": 3.0703125
+    },
+    "work": {
+      "allocated": 2.345712184906006,
+      "reserved": 2.904296875
+    }
+  },
+  "training_seconds_by_task": {
+    "auto_and_commute": 863.0886792999991,
+    "banking": 889.7947558000014,
+    "credit_cards": 960.6232232000002,
+    "home": 986.5389467000023,
+    "kitchen_and_dining": 1083.9417691000017,
+    "meta": 1110.6912919000024,
+    "small_talk": 1197.3764549999978,
+    "travel": 1391.7253242000006,
+    "utility": 1372.8349272999985,
+    "work": 1538.775911699995
+  }
+}

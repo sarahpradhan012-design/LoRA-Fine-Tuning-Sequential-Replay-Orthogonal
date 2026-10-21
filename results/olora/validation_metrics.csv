@@ -1,0 +1,11 @@
+method,split,task_index,examples,correct,accuracy,invalid_outputs,predictions
+olora,validation,1,300,237,0.79,52,run-logs\full-sequence\olora\validation-after-task-01.jsonl
+olora,validation,2,600,343,0.5716666666666667,238,run-logs\full-sequence\olora\validation-after-task-02.jsonl
+olora,validation,3,900,425,0.4722222222222222,420,run-logs\full-sequence\olora\validation-after-task-03.jsonl
+olora,validation,4,1200,326,0.27166666666666667,434,run-logs\full-sequence\olora\validation-after-task-04.jsonl
+olora,validation,5,1500,364,0.24266666666666667,981,run-logs\full-sequence\olora\validation-after-task-05.jsonl
+olora,validation,6,1800,420,0.23333333333333334,1190,run-logs\full-sequence\olora\validation-after-task-06.jsonl
+olora,validation,7,2100,449,0.2138095238095238,1312,run-logs\full-sequence\olora\validation-after-task-07.jsonl
+olora,validation,8,2400,577,0.24041666666666667,1424,run-logs\full-sequence\olora\validation-after-task-08.jsonl
+olora,validation,9,2700,509,0.18851851851851853,1596,run-logs\full-sequence\olora\validation-after-task-09.jsonl
+olora,validation,10,3000,823,0.2743333333333333,1809,run-logs\full-sequence\olora\validation-after-task-10.jsonl

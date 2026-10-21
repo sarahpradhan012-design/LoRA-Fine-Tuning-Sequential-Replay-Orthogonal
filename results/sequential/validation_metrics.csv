@@ -1,0 +1,11 @@
+method,split,task_index,examples,correct,accuracy,invalid_outputs,predictions
+sequential,validation,1,300,238,0.7933333333333333,47,run-logs\full-sequence\sequential\validation-after-task-01.jsonl
+sequential,validation,2,600,343,0.5716666666666667,235,run-logs\full-sequence\sequential\validation-after-task-02.jsonl
+sequential,validation,3,900,430,0.4777777777777778,406,run-logs\full-sequence\sequential\validation-after-task-03.jsonl
+sequential,validation,4,1200,426,0.355,466,run-logs\full-sequence\sequential\validation-after-task-04.jsonl
+sequential,validation,5,1500,373,0.24866666666666667,865,run-logs\full-sequence\sequential\validation-after-task-05.jsonl
+sequential,validation,6,1800,423,0.235,1161,run-logs\full-sequence\sequential\validation-after-task-06.jsonl
+sequential,validation,7,2100,401,0.19095238095238096,1309,run-logs\full-sequence\sequential\validation-after-task-07.jsonl
+sequential,validation,8,2400,580,0.24166666666666667,1236,run-logs\full-sequence\sequential\validation-after-task-08.jsonl
+sequential,validation,9,2700,542,0.20074074074074075,1517,run-logs\full-sequence\sequential\validation-after-task-09.jsonl
+sequential,validation,10,3000,775,0.25833333333333336,1697,run-logs\full-sequence\sequential\validation-after-task-10.jsonl

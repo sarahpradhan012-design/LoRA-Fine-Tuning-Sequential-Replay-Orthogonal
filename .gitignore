@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.py[cod]
+/run-logs/
+/artifacts/
+/data/raw/
+/data/source/clinc150_uci/data_full.json
